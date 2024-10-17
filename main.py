@@ -1,3 +1,5 @@
 print('Binary / Hexadecimal Converter')
 print('------------------------------')
 max_value = int(input('\nCalculate binary and hexadecimal values up to what number?: '))
+decimal = list(range(1, max_value + 1))
+print(decimal)
